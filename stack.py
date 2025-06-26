@@ -16,10 +16,6 @@ class Stack():
 
         print("Top item in the stack:",self.arr[-1])
         return self.arr.pop()
-    
-    def show_top(self):
-
-        print("Top of the stack:",self.arr[-1])
 
         
 
