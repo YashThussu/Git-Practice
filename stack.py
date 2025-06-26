@@ -11,6 +11,11 @@ class Stack():
     def show(self):
 
         print(self.arr)
+    
+    def pop(self):
+
+        print("Top item in the stack:",self.arr[-1])
+        return self.arr.pop()
 
         
 
@@ -18,3 +23,5 @@ class Stack():
 obj=Stack()
 obj.push(10)
 obj.show()
+obj.push(20)
+obj.pop()
