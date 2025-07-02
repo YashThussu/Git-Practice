@@ -1,5 +1,5 @@
 
-class Stack():
+class StackArr():
 
     def __init__(self):
         self.arr:list=[]
@@ -24,10 +24,17 @@ class Stack():
         
         else: return self.arr.__len__()
 
+class Node:
+
+    def __init__(self,value) -> None:
+        
+        self.value=value
+        self.next=None
+
         
 
 
-obj=Stack()
+obj=StackArr()
 obj.push(10)
 obj.show()
 obj.push(20)
