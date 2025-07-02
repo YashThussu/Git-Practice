@@ -16,6 +16,13 @@ class Stack():
 
         print("Top item in the stack:",self.arr[-1])
         return self.arr.pop()
+    
+    def is_empty(self):
+
+        if self.arr.__len__()==0:
+            return 0
+        
+        else: return self.arr.__len__()
 
         
 
