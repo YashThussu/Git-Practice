@@ -31,10 +31,18 @@ class Node:
         self.value=value
         self.next=None
 
+class LinkedList:
+
+    def __init__(self):
+        
+        self.head=Node(None)
+    
+
         
 
 
 obj=StackArr()
+n1=Node(10)
 obj.push(10)
 obj.show()
 obj.push(20)
